@@ -51,7 +51,7 @@ Can a deep convolutional neural network (CNN) reliably classify whether an image
 - Loss function: Binary Cross-Entropy
 - Optimizer: RMSprop with a small learning rate
 
-** Training Strategy**
+**Training Strategy**
 - Split dataset using train_test_split
 - Use Data Augmentation to simulate real-world variability
 - Monitor training and validation accuracy and loss
@@ -59,8 +59,8 @@ Can a deep convolutional neural network (CNN) reliably classify whether an image
 #### Results
 **Metric Achieved Value**
 Final Training Accuracy	~97%
-Final Validation Accuracy	~99%
-Validation Loss	~0.04
+Final Validation Accuracy ~89%
+
 The model successfully learned to distinguish images with and without cars across different lighting and background conditions.
 
 Correctly identifies clean car images, cars on streets, and partial car visibility.
